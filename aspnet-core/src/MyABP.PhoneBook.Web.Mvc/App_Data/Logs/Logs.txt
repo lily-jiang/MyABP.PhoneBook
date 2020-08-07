@@ -1,0 +1,734 @@
+DEBUG 2020-08-07 13:56:58,790 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-07 13:56:58,826 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-07 13:56:58,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.PhoneBook.Web.Startup.PhoneBookWebMvcModule, MyABP.PhoneBook.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.PhoneBook.PhoneBookWebCoreModule, MyABP.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.PhoneBook.PhoneBookApplicationModule, MyABP.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,866 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.PhoneBook.PhoneBookCoreModule, MyABP.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,866 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,866 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,867 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,867 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,868 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyABP.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, MyABP.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,868 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,868 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,870 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,870 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,871 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:58,875 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-07 13:56:58,941 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-07 13:56:58,941 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-07 13:56:58,941 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-07 13:56:58,942 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-07 13:56:59,304 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyABP.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, MyABP.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-07 13:56:59,730 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-07 13:56:59,840 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-07 13:56:59,900 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-07 13:56:59,994 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2020-08-07 13:57:00,082 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-07 13:57:00,168 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-07 13:57:00,220 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyABP.PhoneBook.MultiTenancy.Tenant, MyABP.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyABP.PhoneBook.Authorization.Users.User, MyABP.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-07 13:57:00,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-08-07 13:57:00,445 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyABP.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-07 13:57:00,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyABP.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2020-08-07 13:57:00,455 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyABP.PhoneBook.Users.Dto.UserDto
+DEBUG 2020-08-07 13:57:00,456 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyABP.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-07 13:57:00,456 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyABP.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-07 13:57:00,456 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyABP.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2020-08-07 13:57:00,456 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyABP.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-07 13:57:00,456 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyABP.PhoneBook.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-07 13:57:00,456 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyABP.PhoneBook.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-08-07 13:57:00,456 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyABP.PhoneBook.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-08-07 13:57:03,739 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-08-07 13:57:04,303 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\M_JL_\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-08-07 13:57:04,347 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+DEBUG 2020-08-07 13:57:05,715 [15   ] stle.Proxies.SecurityStampValidatorProxy - Security stamp validation failed, rejecting cookie.
+INFO  2020-08-07 13:57:05,721 [15   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed out.
+INFO  2020-08-07 13:57:05,722 [15   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.External signed out.
+INFO  2020-08-07 13:57:05,722 [15   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.TwoFactorUserId signed out.
+INFO  2020-08-07 13:57:05,743 [15   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: No principal.
+INFO  2020-08-07 13:57:05,804 [15   ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-08-07 13:57:05,806 [15   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-08-07 13:57:05,820 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-08-07 13:57:05,820 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1474.2193ms 302 
+INFO  2020-08-07 13:57:05,824 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.AccountController.Login (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:05,959 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller MyABP.PhoneBook.Web.Controllers.AccountController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:57:07,196 [15   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-08-07 13:57:07,704 [15   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 640.3632ms.
+INFO  2020-08-07 13:57:07,706 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.AccountController.Login (MyABP.PhoneBook.Web.Mvc) in 1746.0876ms
+INFO  2020-08-07 13:57:07,707 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.AccountController.Login (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:07,711 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1890.8472ms 200 text/html; charset=utf-8
+INFO  2020-08-07 13:57:07,729 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css?v=-N4_V_SbAFiW1MPBCXnfnP9QSN3-Keu-NlB-0ev_YKQ  
+INFO  2020-08-07 13:57:07,738 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css?v=nGN1DgpDTrAS3DS7E5J0cL-gblWBKAMSoU_LSuY8gu8  
+INFO  2020-08-07 13:57:07,742 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css?v=tDEOZyJ9BuKWB-BOSc6dE4cI0uNznodJMx11eWZ7jJ4  
+INFO  2020-08-07 13:57:07,743 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css?v=He3QEBKoL_nMXlVsoM7S2C2kjFQqS5L-mgA-F8LpG-U  
+INFO  2020-08-07 13:57:07,744 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2020-08-07 13:57:07,745 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css was not modified
+INFO  2020-08-07 13:57:07,745 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=pk1udUQR7bqKUWFxSnrnIl0MM8MH2Wu05p-zpysBQWI  
+INFO  2020-08-07 13:57:07,746 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.css'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\toastr\toastr.css'
+INFO  2020-08-07 13:57:07,746 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/icheck-bootstrap/icheck-bootstrap.css'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\icheck-bootstrap\icheck-bootstrap.css'
+INFO  2020-08-07 13:57:07,746 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.5699ms 200 text/css
+INFO  2020-08-07 13:57:07,746 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.377ms 200 text/css
+INFO  2020-08-07 13:57:07,746 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.555ms 304 text/css
+INFO  2020-08-07 13:57:07,746 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/_Layout.css was not modified
+INFO  2020-08-07 13:57:07,747 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.5469ms 304 text/css
+INFO  2020-08-07 13:57:07,750 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/css/all.min.css'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\font-awesome\css\all.min.css'
+INFO  2020-08-07 13:57:07,750 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.7421ms 200 text/css
+INFO  2020-08-07 13:57:07,751 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js?v=QWo7LDvxbWT2tbbQ97B53yJnYU3WhH_C8ycbRAkjPDc  
+INFO  2020-08-07 13:57:07,751 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=xKbbeRspeJ53pjKRA3Bh5ZJLItu8Y58wlf6cER1IiIk  
+INFO  2020-08-07 13:57:07,752 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style.css was not modified
+INFO  2020-08-07 13:57:07,752 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.5624ms 304 text/css
+INFO  2020-08-07 13:57:07,754 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery/jquery.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\jquery\jquery.js'
+INFO  2020-08-07 13:57:07,754 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.6105ms 200 application/javascript
+INFO  2020-08-07 13:57:07,755 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css'
+INFO  2020-08-07 13:57:07,755 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.4723ms 200 text/css
+INFO  2020-08-07 13:57:07,759 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-08-07 13:57:07,759 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js?v=KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms  
+INFO  2020-08-07 13:57:07,760 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js?v=qXsDMEfG3xYx1TO9SCGpLfvQPdpKIo0nXVYYfcneIRk  
+INFO  2020-08-07 13:57:07,761 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/block-ui/jquery.blockUI.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\block-ui\jquery.blockUI.js'
+INFO  2020-08-07 13:57:07,761 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/sweetalert/sweetalert.min.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\sweetalert\sweetalert.min.js'
+INFO  2020-08-07 13:57:07,761 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.479ms 200 application/javascript
+INFO  2020-08-07 13:57:07,761 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.6988ms 200 application/javascript
+INFO  2020-08-07 13:57:07,762 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js?v=pVreZ67fRaATygHF6T-gQtF1NI700W9kzeAivu6au9U  
+INFO  2020-08-07 13:57:07,764 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js'
+INFO  2020-08-07 13:57:07,766 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.6058ms 200 application/javascript
+INFO  2020-08-07 13:57:07,772 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js'
+INFO  2020-08-07 13:57:07,772 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.2458ms 200 application/javascript
+INFO  2020-08-07 13:57:07,776 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2020-08-07 13:57:07,777 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/spin/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2020-08-07 13:57:07,778 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/spin/spin.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\spin\spin.js'
+INFO  2020-08-07 13:57:07,778 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs-ext/spin/jquery.spin.js was not modified
+INFO  2020-08-07 13:57:07,778 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.3535ms 304 application/javascript
+INFO  2020-08-07 13:57:07,779 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.9326ms 200 application/javascript
+INFO  2020-08-07 13:57:07,779 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:57:07,782 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:57:07,783 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js?v=yNbKY1y6h2rbVcQtf0b8lq4a-xpktyFc3pSYoGAY1qQ  
+INFO  2020-08-07 13:57:07,784 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637324054276955646  
+INFO  2020-08-07 13:57:07,786 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.min.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\toastr\toastr.min.js'
+INFO  2020-08-07 13:57:07,786 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-08-07 13:57:07,786 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.6239ms 200 application/javascript
+INFO  2020-08-07 13:57:07,786 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.7624ms 200 application/javascript
+INFO  2020-08-07 13:57:07,787 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:07,787 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:07,790 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js?v=dgFbqbQVzjkZPQxWd8PBtzGiRBhChc4I2wO_q_s-Xeo  
+INFO  2020-08-07 13:57:07,797 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/moment/moment-with-locales.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\moment\moment-with-locales.js'
+INFO  2020-08-07 13:57:07,797 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.4905ms 200 application/javascript
+INFO  2020-08-07 13:57:07,800 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:07,803 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=MEOC0fqxBbFCeeJ6VHFuw8-2C710gCRqjbvYcHoBdHU  
+INFO  2020-08-07 13:57:07,804 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js?v=3lLIPNQoGBxv9DWxtKwnvHr7Wlov-D0jo-NtjAdTenA  
+INFO  2020-08-07 13:57:07,805 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=i3fsIGh0z3DXDbSa7f6TwsWonuZ8-OwELSrtH1jHbDA  
+INFO  2020-08-07 13:57:07,805 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2020-08-07 13:57:07,805 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.9339ms 200 application/javascript
+INFO  2020-08-07 13:57:07,807 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:07,808 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2020-08-07 13:57:07,808 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.1072ms 200 application/javascript
+INFO  2020-08-07 13:57:07,808 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2020-08-07 13:57:07,809 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.9137ms 200 application/javascript
+INFO  2020-08-07 13:57:07,809 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2020-08-07 13:57:07,811 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2020-08-07 13:57:07,812 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.4915ms 200 application/javascript
+INFO  2020-08-07 13:57:07,816 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2020-08-07 13:57:07,816 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=Ta7OYgm62iNXMvVrH3f4y3WqUbGsHGBNvt0Zu0eIKtk  
+INFO  2020-08-07 13:57:07,817 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js?v=xLhce0FUawd11QSwrvXSwST0oHhOolNoH9cUXAcsIAg  
+INFO  2020-08-07 13:57:07,818 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2020-08-07 13:57:07,818 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.8649ms 200 application/javascript
+INFO  2020-08-07 13:57:07,818 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2020-08-07 13:57:07,819 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.5059ms 200 application/javascript
+INFO  2020-08-07 13:57:07,819 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.js'
+INFO  2020-08-07 13:57:07,819 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.3892ms 200 application/javascript
+INFO  2020-08-07 13:57:07,825 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js?v=XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk  
+INFO  2020-08-07 13:57:07,826 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=KxhHl3HYb-UQucT7TN2ewhzzgV_WwxRaGwGaSiT8xzM  
+INFO  2020-08-07 13:57:07,826 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=7H5kJHVKn_jqLxVycLP8Di0HPoc3nnIZH7d7shSF2-M  
+INFO  2020-08-07 13:57:07,827 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/Login.js was not modified
+INFO  2020-08-07 13:57:07,827 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/main.js was not modified
+INFO  2020-08-07 13:57:07,828 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.321ms 304 application/javascript
+INFO  2020-08-07 13:57:07,828 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.2826ms 304 application/javascript
+INFO  2020-08-07 13:57:07,828 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.unobtrusive.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.unobtrusive.js'
+INFO  2020-08-07 13:57:07,829 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.8504ms 200 application/javascript
+INFO  2020-08-07 13:57:07,896 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-08-07 13:57:07,899 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png was not modified
+INFO  2020-08-07 13:57:07,900 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.0354ms 304 image/png
+INFO  2020-08-07 13:57:07,908 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:57:07,909 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 108.1182ms
+INFO  2020-08-07 13:57:07,909 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:07,909 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 129.8755ms 200 application/x-javascript
+INFO  2020-08-07 13:57:07,925 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:07,927 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 119.6042ms
+INFO  2020-08-07 13:57:07,927 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:07,928 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 145.1698ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:07,996 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-solid-900.woff2  
+INFO  2020-08-07 13:57:07,998 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/webfonts/fa-solid-900.woff2'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\font-awesome\webfonts\fa-solid-900.woff2'
+INFO  2020-08-07 13:57:07,998 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.4935ms 200 font/woff2
+INFO  2020-08-07 13:57:14,744 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-08-07 13:57:14,748 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.AccountController.Login (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:14,759 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(MyABP.PhoneBook.Web.Models.Account.LoginViewModel, System.String, System.String) on controller MyABP.PhoneBook.Web.Controllers.AccountController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:57:15,163 [7    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-08-07 13:57:15,177 [7    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-07 13:57:15,186 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.AccountController.Login (MyABP.PhoneBook.Web.Mvc) in 427.7239ms
+INFO  2020-08-07 13:57:15,187 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.AccountController.Login (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:15,187 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 443.3898ms 200 application/json; charset=utf-8
+INFO  2020-08-07 13:57:15,201 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-08-07 13:57:15,209 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-07 13:57:15,209 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.HomeController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:15,213 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyABP.PhoneBook.Web.Controllers.HomeController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:57:15,235 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-07 13:57:15,624 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 393.4892ms.
+INFO  2020-08-07 13:57:15,627 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.HomeController.Index (MyABP.PhoneBook.Web.Mvc) in 414.2571ms
+INFO  2020-08-07 13:57:15,628 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.HomeController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:15,629 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 427.5025ms 200 text/html; charset=utf-8
+INFO  2020-08-07 13:57:15,647 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/dataTables.bootstrap4.min.css?v=F-DaKAClQut87heMIC6oThARMuWne8-WzxIDT7jXuPA  
+INFO  2020-08-07 13:57:15,649 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/responsive.bootstrap4.min.css?v=QrpUliTHPwNNlphA-wNV-zRWVltgDT6Eg0cXVAB04hI  
+INFO  2020-08-07 13:57:15,651 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/dataTables.bootstrap4.min.css'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\datatables\css\dataTables.bootstrap4.min.css'
+INFO  2020-08-07 13:57:15,651 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.67ms 200 text/css
+INFO  2020-08-07 13:57:15,653 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=pk1udUQR7bqKUWFxSnrnIl0MM8MH2Wu05p-zpysBQWI  
+INFO  2020-08-07 13:57:15,654 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/buttons.bootstrap4.min.css?v=1O-iXoRdSUgNTj7NzmW-C3dpRaxiGn1afSX-qfRCV4Q  
+INFO  2020-08-07 13:57:15,654 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/responsive.bootstrap4.min.css'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\datatables\css\responsive.bootstrap4.min.css'
+INFO  2020-08-07 13:57:15,654 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.8521ms 200 text/css
+INFO  2020-08-07 13:57:15,656 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Shared/_Layout.css was not modified
+INFO  2020-08-07 13:57:15,656 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.1408ms 304 text/css
+INFO  2020-08-07 13:57:15,657 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/buttons.bootstrap4.min.css'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\datatables\css\buttons.bootstrap4.min.css'
+INFO  2020-08-07 13:57:15,657 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.2267ms 200 text/css
+INFO  2020-08-07 13:57:15,669 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/jquery.dataTables.min.js?v=LXQzPhL1IRyKkA7HpCOBi8I-OC8HqzHUYkjK8S-LKTs  
+INFO  2020-08-07 13:57:15,676 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/jquery.dataTables.min.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\datatables\js\jquery.dataTables.min.js'
+INFO  2020-08-07 13:57:15,676 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.7259ms 200 application/javascript
+INFO  2020-08-07 13:57:15,676 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.bootstrap4.min.js?v=hJ44ymhBmRPJKIaKRf3DSX5uiFEZ9xB_qx8cNbJvIMU  
+INFO  2020-08-07 13:57:15,677 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.responsive.min.js?v=7Tbik5KSODuGiOLIOFfhP47p5UK6h1wzw8CFSI_TKhc  
+INFO  2020-08-07 13:57:15,680 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.bootstrap4.min.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\datatables\js\dataTables.bootstrap4.min.js'
+INFO  2020-08-07 13:57:15,680 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.8437ms 200 application/javascript
+INFO  2020-08-07 13:57:15,680 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.buttons.js?v=5QXxQoJP_O_KTBOFw8kshfIczGGlmZRcR_WjhFKbiZY  
+INFO  2020-08-07 13:57:15,682 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/buttons.bootstrap4.js?v=7tPJL63hI4QnZbV489_5KEpe7k6W5RzPTZkP8m6kzEE  
+INFO  2020-08-07 13:57:15,683 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.responsive.min.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\datatables\js\dataTables.responsive.min.js'
+INFO  2020-08-07 13:57:15,683 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.9888ms 200 application/javascript
+INFO  2020-08-07 13:57:15,683 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.buttons.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\datatables\js\dataTables.buttons.js'
+INFO  2020-08-07 13:57:15,683 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.1855ms 200 application/javascript
+INFO  2020-08-07 13:57:15,684 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/responsive.bootstrap4.min.js?v=aXVO47Rb7s58FhMTCwbM39en_1XcmzGkClRzBe5txKs  
+INFO  2020-08-07 13:57:15,685 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/buttons.bootstrap4.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\datatables\js\buttons.bootstrap4.js'
+INFO  2020-08-07 13:57:15,685 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.5427ms 200 application/javascript
+INFO  2020-08-07 13:57:15,687 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/responsive.bootstrap4.min.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\datatables\js\responsive.bootstrap4.min.js'
+INFO  2020-08-07 13:57:15,687 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.1134ms 200 application/javascript
+INFO  2020-08-07 13:57:15,698 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js?v=s5ortbhB2C3h17nHMtXwbCSN9YncRIZH6XrFTSO9vmk  
+INFO  2020-08-07 13:57:15,702 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/abp.dataTable.js?v=7plshypOwRgu1ewchEoOtg8_izPTnR25mztZhEymokY  
+INFO  2020-08-07 13:57:15,702 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js?v=p73-snCYhrDo9U6USD9P19LnY1EwAe4-VzQxj_kNyBE  
+INFO  2020-08-07 13:57:15,702 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=7OzpM5utNWYP8ne_218zbUCD3Xj_R1GqM6AzwpgQktg  
+INFO  2020-08-07 13:57:15,702 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:57:15,702 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/signalr/dist/browser/signalr.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\signalr\dist\browser\signalr.js'
+INFO  2020-08-07 13:57:15,702 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.4679ms 200 application/javascript
+INFO  2020-08-07 13:57:15,703 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:57:15,703 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/abp.dataTable.js was not modified
+INFO  2020-08-07 13:57:15,704 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.2796ms 304 application/javascript
+INFO  2020-08-07 13:57:15,704 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/push.js/push.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\push.js\push.js'
+INFO  2020-08-07 13:57:15,704 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.5898ms 200 application/javascript
+INFO  2020-08-07 13:57:15,705 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2020-08-07 13:57:15,705 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.1452ms 200 application/javascript
+INFO  2020-08-07 13:57:15,713 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:15,714 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:15,715 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/chartjs/dist/Chart.js?v=nZaxPHA2uAaquixjSDX19TmIlbRNCOrf5HO1oHl5p70  
+INFO  2020-08-07 13:57:15,715 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:15,715 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:15,717 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/logo.png  
+INFO  2020-08-07 13:57:15,717 [15   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:57:15,717 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/img/avatar5.png  
+INFO  2020-08-07 13:57:15,717 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=K0D6HsrS69XXLRtWKoTtWGYinGZNmmZF6gpiRobQkK4  
+INFO  2020-08-07 13:57:15,717 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.1719ms
+INFO  2020-08-07 13:57:15,717 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:15,717 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15.1555ms 200 application/x-javascript
+INFO  2020-08-07 13:57:15,718 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Home/Index.js was not modified
+INFO  2020-08-07 13:57:15,718 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.1795ms 304 application/javascript
+INFO  2020-08-07 13:57:15,718 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/img/avatar5.png'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\admin-lte\dist\img\avatar5.png'
+INFO  2020-08-07 13:57:15,718 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.5293ms 200 image/png
+INFO  2020-08-07 13:57:15,719 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /img/logo.png was not modified
+INFO  2020-08-07 13:57:15,719 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.1896ms 304 image/png
+INFO  2020-08-07 13:57:15,720 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/chartjs/dist/Chart.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\chartjs\dist\Chart.js'
+INFO  2020-08-07 13:57:15,720 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.6097ms 200 application/javascript
+INFO  2020-08-07 13:57:15,780 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:15,781 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 65.1981ms
+INFO  2020-08-07 13:57:15,781 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:15,781 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 78.8384ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:15,804 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-07 13:57:15,809 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:15,819 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:15,819 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.9369ms 200 application/json
+INFO  2020-08-07 13:57:15,849 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=4k-IxbEfVANNZ32VXya0UA  
+INFO  2020-08-07 13:57:15,855 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-07 13:57:15,925 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"4k-IxbEfVANNZ32VXya0UA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-08-07T13:57:15.917511+08:00","Properties":{}}
+DEBUG 2020-08-07 13:57:15,938 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 4k-IxbEfVANNZ32VXya0UA
+INFO  2020-08-07 13:57:27,884 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/About  
+INFO  2020-08-07 13:57:27,895 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-07 13:57:27,896 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:27,899 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "About", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyABP.PhoneBook.Web.Controllers.AboutController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:57:27,920 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-07 13:57:27,970 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 54.733ms.
+INFO  2020-08-07 13:57:27,971 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc) in 71.2792ms
+INFO  2020-08-07 13:57:27,971 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:27,972 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 87.4204ms 200 text/html; charset=utf-8
+DEBUG 2020-08-07 13:57:27,984 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 4k-IxbEfVANNZ32VXya0UA
+INFO  2020-08-07 13:57:27,991 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-07 13:57:27,991 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12141.9697ms 101 
+INFO  2020-08-07 13:57:27,999 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:57:27,999 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:57:28,006 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:28,006 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:28,008 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:28,008 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:28,010 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:57:28,010 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.5087ms
+INFO  2020-08-07 13:57:28,010 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:28,011 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.6398ms 200 application/x-javascript
+INFO  2020-08-07 13:57:28,035 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:28,036 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 28.1221ms
+INFO  2020-08-07 13:57:28,036 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:28,037 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 37.4264ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:28,053 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-07 13:57:28,058 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:28,059 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:28,059 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.4237ms 200 application/json
+INFO  2020-08-07 13:57:28,080 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=b8_MvZ7IXE5-7zQhs8zatA  
+INFO  2020-08-07 13:57:28,086 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-07 13:57:28,105 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"b8_MvZ7IXE5-7zQhs8zatA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-08-07T13:57:28.105727+08:00","Properties":{}}
+DEBUG 2020-08-07 13:57:28,106 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: b8_MvZ7IXE5-7zQhs8zatA
+INFO  2020-08-07 13:57:32,333 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=zh-Hans&returnUrl=%2FAbout  
+INFO  2020-08-07 13:57:32,356 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:32,364 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "ChangeCulture", controller = "AbpLocalization", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult ChangeCulture(System.String, System.String) on controller Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:32,425 [7    ] frastructure.LocalRedirectResultExecutor - Executing LocalRedirectResult, redirecting to /About.
+INFO  2020-08-07 13:57:32,426 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 61.8342ms
+INFO  2020-08-07 13:57:32,426 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:32,427 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 94.4419ms 302 
+INFO  2020-08-07 13:57:32,430 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/About  
+INFO  2020-08-07 13:57:32,439 [11   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-07 13:57:32,440 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:32,442 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "About", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyABP.PhoneBook.Web.Controllers.AboutController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:57:32,455 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-07 13:57:32,496 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 41.1649ms.
+INFO  2020-08-07 13:57:32,496 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc) in 54.4998ms
+INFO  2020-08-07 13:57:32,496 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:32,497 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 66.7473ms 200 text/html; charset=utf-8
+DEBUG 2020-08-07 13:57:32,502 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: b8_MvZ7IXE5-7zQhs8zatA
+INFO  2020-08-07 13:57:32,503 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-07 13:57:32,503 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4423.6076ms 101 
+INFO  2020-08-07 13:57:32,517 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js?v=QWo7LDvxbWT2tbbQ97B53yJnYU3WhH_C8ycbRAkjPDc  
+INFO  2020-08-07 13:57:32,518 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/jquery/jquery.js was not modified
+INFO  2020-08-07 13:57:32,519 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.5412ms 304 application/javascript
+INFO  2020-08-07 13:57:32,521 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-08-07 13:57:32,522 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/block-ui/jquery.blockUI.js was not modified
+INFO  2020-08-07 13:57:32,522 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.1163ms 304 application/javascript
+INFO  2020-08-07 13:57:32,531 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_zh.min.js?v=5n1RPdULeEAdbm30f9PCcdOHYyuNqFIr-pv58jBitPY  
+INFO  2020-08-07 13:57:32,531 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js?v=KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms  
+INFO  2020-08-07 13:57:32,531 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:57:32,532 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:57:32,532 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/sweetalert/sweetalert.min.js was not modified
+INFO  2020-08-07 13:57:32,532 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8091ms 304 application/javascript
+INFO  2020-08-07 13:57:32,532 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/localization/messages_zh.min.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\libs\jquery-validate\localization\messages_zh.min.js'
+INFO  2020-08-07 13:57:32,532 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.1887ms 200 application/javascript
+INFO  2020-08-07 13:57:32,540 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:32,541 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:32,541 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:32,543 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:32,545 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:57:32,545 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.0161ms
+INFO  2020-08-07 13:57:32,545 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:32,545 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.7491ms 200 application/x-javascript
+INFO  2020-08-07 13:57:32,590 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:32,591 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 49.252ms
+INFO  2020-08-07 13:57:32,591 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:32,592 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.4626ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:32,634 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-07 13:57:32,641 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:32,642 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:32,642 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.289ms 200 application/json
+INFO  2020-08-07 13:57:32,667 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=SruoRCdXXdOrEyxnhm7i7Q  
+INFO  2020-08-07 13:57:32,672 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-07 13:57:32,675 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"SruoRCdXXdOrEyxnhm7i7Q","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-08-07T13:57:32.6756277+08:00","Properties":{}}
+DEBUG 2020-08-07 13:57:32,676 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: SruoRCdXXdOrEyxnhm7i7Q
+INFO  2020-08-07 13:57:35,011 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/About  
+INFO  2020-08-07 13:57:35,021 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-07 13:57:35,022 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:35,023 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "About", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyABP.PhoneBook.Web.Controllers.AboutController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:57:35,036 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-07 13:57:35,106 [15   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 69.4598ms.
+INFO  2020-08-07 13:57:35,106 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc) in 82.8041ms
+INFO  2020-08-07 13:57:35,106 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:35,107 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 95.8802ms 200 text/html; charset=utf-8
+DEBUG 2020-08-07 13:57:35,115 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: SruoRCdXXdOrEyxnhm7i7Q
+INFO  2020-08-07 13:57:35,115 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-07 13:57:35,115 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2448.4501ms 101 
+INFO  2020-08-07 13:57:35,132 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:57:35,132 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:57:35,138 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:35,138 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:35,139 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:35,140 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:35,142 [15   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:57:35,143 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.9734ms
+INFO  2020-08-07 13:57:35,143 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:35,143 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.456ms 200 application/x-javascript
+INFO  2020-08-07 13:57:35,162 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:35,162 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 22.5674ms
+INFO  2020-08-07 13:57:35,162 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:35,163 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.3646ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:35,191 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-07 13:57:35,196 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:35,197 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:35,197 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.1942ms 200 application/json
+INFO  2020-08-07 13:57:35,215 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=hQi1A2Dgq-Hsw9GM5_rh_A  
+INFO  2020-08-07 13:57:35,221 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-07 13:57:35,226 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"hQi1A2Dgq-Hsw9GM5_rh_A","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-08-07T13:57:35.2260715+08:00","Properties":{}}
+DEBUG 2020-08-07 13:57:35,226 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: hQi1A2Dgq-Hsw9GM5_rh_A
+INFO  2020-08-07 13:57:37,574 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-08-07 13:57:37,582 [12   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-07 13:57:37,582 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.HomeController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:37,584 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyABP.PhoneBook.Web.Controllers.HomeController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:57:37,594 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-07 13:57:37,631 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 36.8859ms.
+INFO  2020-08-07 13:57:37,632 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.HomeController.Index (MyABP.PhoneBook.Web.Mvc) in 47.4321ms
+INFO  2020-08-07 13:57:37,632 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.HomeController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:37,633 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 58.9803ms 200 text/html; charset=utf-8
+DEBUG 2020-08-07 13:57:37,639 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: hQi1A2Dgq-Hsw9GM5_rh_A
+INFO  2020-08-07 13:57:37,639 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-07 13:57:37,640 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2424.45ms 101 
+INFO  2020-08-07 13:57:37,656 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:57:37,656 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:57:37,661 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:37,661 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:37,663 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:37,663 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:37,665 [15   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:57:37,665 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.4114ms
+INFO  2020-08-07 13:57:37,665 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:37,666 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.1923ms 200 application/x-javascript
+INFO  2020-08-07 13:57:37,688 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:37,689 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 25.8496ms
+INFO  2020-08-07 13:57:37,689 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:37,689 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.764ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:37,721 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-07 13:57:37,728 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:37,728 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:37,729 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.807ms 200 application/json
+INFO  2020-08-07 13:57:37,769 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=-FRCqy6L4pyDGj7bs1k15g  
+INFO  2020-08-07 13:57:37,775 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-07 13:57:37,802 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"-FRCqy6L4pyDGj7bs1k15g","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-08-07T13:57:37.8023952+08:00","Properties":{}}
+DEBUG 2020-08-07 13:57:37,803 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: -FRCqy6L4pyDGj7bs1k15g
+INFO  2020-08-07 13:57:40,057 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/About  
+INFO  2020-08-07 13:57:40,065 [15   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-07 13:57:40,065 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:40,067 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "About", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyABP.PhoneBook.Web.Controllers.AboutController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:57:40,075 [15   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-07 13:57:40,118 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 42.931ms.
+INFO  2020-08-07 13:57:40,118 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc) in 51.008ms
+INFO  2020-08-07 13:57:40,118 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:40,119 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.4887ms 200 text/html; charset=utf-8
+DEBUG 2020-08-07 13:57:40,125 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: -FRCqy6L4pyDGj7bs1k15g
+INFO  2020-08-07 13:57:40,125 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-07 13:57:40,125 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2355.9564ms 101 
+INFO  2020-08-07 13:57:40,145 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:57:40,145 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:57:40,152 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:40,152 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:40,153 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:40,154 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:40,157 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:57:40,157 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 3.5352ms
+INFO  2020-08-07 13:57:40,157 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:40,158 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.6534ms 200 application/x-javascript
+INFO  2020-08-07 13:57:40,181 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:40,182 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 28.2622ms
+INFO  2020-08-07 13:57:40,182 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:40,182 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.839ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:40,213 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-07 13:57:40,221 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:40,222 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:40,222 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.1634ms 200 application/json
+INFO  2020-08-07 13:57:40,248 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=fJzSNA-OwmozRjSqaUqkIw  
+INFO  2020-08-07 13:57:40,257 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-07 13:57:40,276 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"fJzSNA-OwmozRjSqaUqkIw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-08-07T13:57:40.2759714+08:00","Properties":{}}
+DEBUG 2020-08-07 13:57:40,277 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: fJzSNA-OwmozRjSqaUqkIw
+INFO  2020-08-07 13:57:40,854 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2020-08-07 13:57:40,861 [9    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-07 13:57:40,861 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.RolesController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:40,866 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller MyABP.PhoneBook.Web.Controllers.RolesController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:57:40,981 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-07 13:57:41,047 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 68.607ms.
+INFO  2020-08-07 13:57:41,047 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.RolesController.Index (MyABP.PhoneBook.Web.Mvc) in 180.5053ms
+INFO  2020-08-07 13:57:41,047 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.RolesController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:41,048 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 193.6669ms 200 text/html; charset=utf-8
+DEBUG 2020-08-07 13:57:41,053 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: fJzSNA-OwmozRjSqaUqkIw
+INFO  2020-08-07 13:57:41,054 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-07 13:57:41,054 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 806.2238ms 101 
+INFO  2020-08-07 13:57:41,071 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:57:41,072 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:57:41,075 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Roles/Index.js?v=H8iOlwUjf4_gJB4UH_UICJ4pIukqwxqnsvAptvb_3MU  
+INFO  2020-08-07 13:57:41,076 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Roles/Index.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Roles\Index.js'
+INFO  2020-08-07 13:57:41,077 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.7056ms 200 application/javascript
+INFO  2020-08-07 13:57:41,079 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:41,079 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:41,080 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:41,080 [36   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:41,083 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:57:41,083 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.1972ms
+INFO  2020-08-07 13:57:41,083 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:41,084 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.9921ms 200 application/x-javascript
+INFO  2020-08-07 13:57:41,106 [36   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:41,107 [36   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 25.984ms
+INFO  2020-08-07 13:57:41,107 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:41,107 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.8357ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:41,136 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-07 13:57:41,142 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:41,142 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:41,142 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.9931ms 200 application/json
+INFO  2020-08-07 13:57:41,151 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=r59vQY8Txlci6tPJe1jL3Q  
+INFO  2020-08-07 13:57:41,157 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-08-07 13:57:41,206 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Role/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-08-07 13:57:41,211 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Roles.RoleAppService.GetAllAsync (MyABP.PhoneBook.Application)'
+INFO  2020-08-07 13:57:41,217 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[MyABP.PhoneBook.Roles.Dto.RoleDto]] GetAllAsync(MyABP.PhoneBook.Roles.Dto.PagedRoleResultRequestDto) on controller MyABP.PhoneBook.Roles.RoleAppService (MyABP.PhoneBook.Application).
+DEBUG 2020-08-07 13:57:41,228 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"r59vQY8Txlci6tPJe1jL3Q","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-08-07T13:57:41.2287553+08:00","Properties":{}}
+DEBUG 2020-08-07 13:57:41,229 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: r59vQY8Txlci6tPJe1jL3Q
+INFO  2020-08-07 13:57:41,348 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-07 13:57:41,371 [36   ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Roles.RoleAppService.GetAllAsync (MyABP.PhoneBook.Application) in 153.3298ms
+INFO  2020-08-07 13:57:41,371 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Roles.RoleAppService.GetAllAsync (MyABP.PhoneBook.Application)'
+INFO  2020-08-07 13:57:41,371 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 164.4921ms 200 application/json; charset=utf-8
+INFO  2020-08-07 13:57:42,047 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2020-08-07 13:57:42,053 [36   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-07 13:57:42,053 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.UsersController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:42,059 [36   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller MyABP.PhoneBook.Web.Controllers.UsersController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:57:42,250 [36   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-07 13:57:42,307 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 59.7034ms.
+INFO  2020-08-07 13:57:42,307 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.UsersController.Index (MyABP.PhoneBook.Web.Mvc) in 248.8168ms
+INFO  2020-08-07 13:57:42,308 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.UsersController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:42,308 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 261.3121ms 200 text/html; charset=utf-8
+DEBUG 2020-08-07 13:57:42,315 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: r59vQY8Txlci6tPJe1jL3Q
+INFO  2020-08-07 13:57:42,315 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-07 13:57:42,315 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1164.4767ms 101 
+INFO  2020-08-07 13:57:42,332 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:57:42,332 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:57:42,336 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/Index.js?v=gtPo2vv4pIQ2OxvTpgJKL1X-C8vs1f4bqMQn09sYHcI  
+INFO  2020-08-07 13:57:42,336 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Users/Index.js was not modified
+INFO  2020-08-07 13:57:42,337 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.075ms 304 application/javascript
+INFO  2020-08-07 13:57:42,338 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:42,338 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:42,339 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:42,339 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:42,341 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:57:42,341 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.7788ms
+INFO  2020-08-07 13:57:42,341 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:42,341 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.6757ms 200 application/x-javascript
+INFO  2020-08-07 13:57:42,360 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:42,360 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 21.1929ms
+INFO  2020-08-07 13:57:42,360 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:42,361 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.491ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:42,390 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-07 13:57:42,396 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:42,396 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:42,397 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.0247ms 200 application/json
+INFO  2020-08-07 13:57:42,405 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=TZGYbLomnNP5cAgAbFxIvw  
+INFO  2020-08-07 13:57:42,410 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-08-07 13:57:42,441 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/User/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-08-07 13:57:42,447 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Users.UserAppService.GetAllAsync (MyABP.PhoneBook.Application)'
+INFO  2020-08-07 13:57:42,453 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[MyABP.PhoneBook.Users.Dto.UserDto]] GetAllAsync(MyABP.PhoneBook.Users.Dto.PagedUserResultRequestDto) on controller MyABP.PhoneBook.Users.UserAppService (MyABP.PhoneBook.Application).
+DEBUG 2020-08-07 13:57:42,464 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"TZGYbLomnNP5cAgAbFxIvw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-08-07T13:57:42.4639578+08:00","Properties":{}}
+DEBUG 2020-08-07 13:57:42,464 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: TZGYbLomnNP5cAgAbFxIvw
+INFO  2020-08-07 13:57:42,558 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-07 13:57:42,569 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Users.UserAppService.GetAllAsync (MyABP.PhoneBook.Application) in 116.4708ms
+INFO  2020-08-07 13:57:42,570 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Users.UserAppService.GetAllAsync (MyABP.PhoneBook.Application)'
+INFO  2020-08-07 13:57:42,570 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 128.6848ms 200 application/json; charset=utf-8
+INFO  2020-08-07 13:57:43,487 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-08-07 13:57:43,492 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-07 13:57:43,492 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.HomeController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:43,494 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyABP.PhoneBook.Web.Controllers.HomeController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:57:43,501 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-07 13:57:43,535 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 33.8975ms.
+INFO  2020-08-07 13:57:43,535 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.HomeController.Index (MyABP.PhoneBook.Web.Mvc) in 41.4463ms
+INFO  2020-08-07 13:57:43,535 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.HomeController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:43,536 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.3838ms 200 text/html; charset=utf-8
+DEBUG 2020-08-07 13:57:43,541 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: TZGYbLomnNP5cAgAbFxIvw
+INFO  2020-08-07 13:57:43,542 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-07 13:57:43,542 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1136.3821ms 101 
+INFO  2020-08-07 13:57:43,561 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:57:43,561 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:57:43,566 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:43,567 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:43,568 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:43,568 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:43,570 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:57:43,570 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.968ms
+INFO  2020-08-07 13:57:43,570 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:43,571 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.7191ms 200 application/x-javascript
+INFO  2020-08-07 13:57:43,585 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:43,585 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 17.819ms
+INFO  2020-08-07 13:57:43,586 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:43,586 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.0691ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:43,620 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-07 13:57:43,627 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:43,628 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:43,628 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.2784ms 200 application/json
+INFO  2020-08-07 13:57:43,652 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=lIEpSOKugpwnn0mRp2OQPw  
+INFO  2020-08-07 13:57:43,656 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-07 13:57:43,676 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"lIEpSOKugpwnn0mRp2OQPw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-08-07T13:57:43.6768013+08:00","Properties":{}}
+DEBUG 2020-08-07 13:57:43,677 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: lIEpSOKugpwnn0mRp2OQPw
+INFO  2020-08-07 13:57:44,591 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Tenants  
+INFO  2020-08-07 13:57:44,595 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-07 13:57:44,595 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.TenantsController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:44,599 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Tenants", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyABP.PhoneBook.Web.Controllers.TenantsController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:57:44,711 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-07 13:57:44,760 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 51.7284ms.
+INFO  2020-08-07 13:57:44,760 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.TenantsController.Index (MyABP.PhoneBook.Web.Mvc) in 161.6384ms
+INFO  2020-08-07 13:57:44,760 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.TenantsController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:44,761 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 170.0584ms 200 text/html; charset=utf-8
+DEBUG 2020-08-07 13:57:44,767 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: lIEpSOKugpwnn0mRp2OQPw
+INFO  2020-08-07 13:57:44,768 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-07 13:57:44,768 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1115.736ms 101 
+INFO  2020-08-07 13:57:44,786 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:57:44,786 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:57:44,789 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Tenants/Index.js?v=tN0ijraU5xFnoqjgYsE4m2l_Hh-Lmw8JsXBUUPLcQEk  
+INFO  2020-08-07 13:57:44,790 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Tenants/Index.js'. Physical path: 'E:\ABP\MyABP.PhoneBook\aspnet-core\src\MyABP.PhoneBook.Web.Mvc\wwwroot\view-resources\Views\Tenants\Index.js'
+INFO  2020-08-07 13:57:44,790 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.1661ms 200 application/javascript
+INFO  2020-08-07 13:57:44,791 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:44,792 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:44,792 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:44,793 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:44,795 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:57:44,795 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.2366ms
+INFO  2020-08-07 13:57:44,795 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:44,796 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.107ms 200 application/x-javascript
+INFO  2020-08-07 13:57:44,820 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:44,821 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 28.5195ms
+INFO  2020-08-07 13:57:44,821 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:44,821 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.7686ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:44,855 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-07 13:57:44,861 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:44,862 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:44,862 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.5652ms 200 application/json
+INFO  2020-08-07 13:57:44,875 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=KuHIkeyGSkaTDRMmVeaSxA  
+INFO  2020-08-07 13:57:44,881 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-08-07 13:57:44,916 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Tenant/GetAll?keyword=&isActive=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-08-07 13:57:44,920 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.MultiTenancy.TenantAppService.GetAllAsync (MyABP.PhoneBook.Application)'
+INFO  2020-08-07 13:57:44,925 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Tenant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[MyABP.PhoneBook.MultiTenancy.Dto.TenantDto]] GetAllAsync(MyABP.PhoneBook.MultiTenancy.Dto.PagedTenantResultRequestDto) on controller MyABP.PhoneBook.MultiTenancy.TenantAppService (MyABP.PhoneBook.Application).
+DEBUG 2020-08-07 13:57:44,938 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"KuHIkeyGSkaTDRMmVeaSxA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-08-07T13:57:44.9386883+08:00","Properties":{}}
+DEBUG 2020-08-07 13:57:44,939 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: KuHIkeyGSkaTDRMmVeaSxA
+INFO  2020-08-07 13:57:45,072 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-07 13:57:45,077 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.MultiTenancy.TenantAppService.GetAllAsync (MyABP.PhoneBook.Application) in 152.2253ms
+INFO  2020-08-07 13:57:45,077 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.MultiTenancy.TenantAppService.GetAllAsync (MyABP.PhoneBook.Application)'
+INFO  2020-08-07 13:57:45,077 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 161.4908ms 200 application/json; charset=utf-8
+INFO  2020-08-07 13:57:50,466 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=en&returnUrl=%2FTenants  
+INFO  2020-08-07 13:57:50,475 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:50,476 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "ChangeCulture", controller = "AbpLocalization", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult ChangeCulture(System.String, System.String) on controller Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:50,525 [15   ] frastructure.LocalRedirectResultExecutor - Executing LocalRedirectResult, redirecting to /Tenants.
+INFO  2020-08-07 13:57:50,525 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 49.0846ms
+INFO  2020-08-07 13:57:50,526 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:50,526 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.1774ms 302 
+INFO  2020-08-07 13:57:50,529 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Tenants  
+INFO  2020-08-07 13:57:50,533 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-07 13:57:50,533 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.TenantsController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:50,533 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Tenants", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyABP.PhoneBook.Web.Controllers.TenantsController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:57:50,540 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-07 13:57:50,568 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 27.906ms.
+INFO  2020-08-07 13:57:50,568 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.TenantsController.Index (MyABP.PhoneBook.Web.Mvc) in 34.7934ms
+INFO  2020-08-07 13:57:50,568 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.TenantsController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:57:50,569 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.0881ms 200 text/html; charset=utf-8
+DEBUG 2020-08-07 13:57:50,574 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: KuHIkeyGSkaTDRMmVeaSxA
+INFO  2020-08-07 13:57:50,574 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-07 13:57:50,574 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5699.2616ms 101 
+INFO  2020-08-07 13:57:50,589 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:57:50,590 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:57:50,593 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:50,594 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:50,596 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:50,597 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:57:50,597 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:57:50,597 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.8834ms
+INFO  2020-08-07 13:57:50,597 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:50,598 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.6695ms 200 application/x-javascript
+INFO  2020-08-07 13:57:50,625 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:50,625 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 28.391ms
+INFO  2020-08-07 13:57:50,625 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:57:50,626 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.2904ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:57:50,651 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-07 13:57:50,656 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:50,656 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:57:50,657 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.4508ms 200 application/json
+INFO  2020-08-07 13:57:50,666 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=FdOVyYgefFifl0ZDpyWGtw  
+INFO  2020-08-07 13:57:50,671 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-08-07 13:57:50,714 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Tenant/GetAll?keyword=&isActive=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-08-07 13:57:50,719 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.MultiTenancy.TenantAppService.GetAllAsync (MyABP.PhoneBook.Application)'
+INFO  2020-08-07 13:57:50,720 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Tenant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[MyABP.PhoneBook.MultiTenancy.Dto.TenantDto]] GetAllAsync(MyABP.PhoneBook.MultiTenancy.Dto.PagedTenantResultRequestDto) on controller MyABP.PhoneBook.MultiTenancy.TenantAppService (MyABP.PhoneBook.Application).
+INFO  2020-08-07 13:57:50,733 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-07 13:57:50,733 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.MultiTenancy.TenantAppService.GetAllAsync (MyABP.PhoneBook.Application) in 12.619ms
+INFO  2020-08-07 13:57:50,733 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.MultiTenancy.TenantAppService.GetAllAsync (MyABP.PhoneBook.Application)'
+INFO  2020-08-07 13:57:50,733 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.6744ms 200 application/json; charset=utf-8
+DEBUG 2020-08-07 13:57:50,735 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"FdOVyYgefFifl0ZDpyWGtw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-08-07T13:57:50.7357826+08:00","Properties":{}}
+DEBUG 2020-08-07 13:57:50,736 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: FdOVyYgefFifl0ZDpyWGtw
+INFO  2020-08-07 13:58:04,027 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/About  
+INFO  2020-08-07 13:58:04,033 [9    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-07 13:58:04,033 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:58:04,034 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "About", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyABP.PhoneBook.Web.Controllers.AboutController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:58:04,041 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-07 13:58:04,075 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 34.2719ms.
+INFO  2020-08-07 13:58:04,075 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc) in 40.6607ms
+INFO  2020-08-07 13:58:04,075 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.AboutController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:58:04,076 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.7618ms 200 text/html; charset=utf-8
+DEBUG 2020-08-07 13:58:04,082 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: FdOVyYgefFifl0ZDpyWGtw
+INFO  2020-08-07 13:58:04,082 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-07 13:58:04,083 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13416.4511ms 101 
+INFO  2020-08-07 13:58:04,100 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js?v=QWo7LDvxbWT2tbbQ97B53yJnYU3WhH_C8ycbRAkjPDc  
+INFO  2020-08-07 13:58:04,101 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/jquery/jquery.js was not modified
+INFO  2020-08-07 13:58:04,102 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.0016ms 304 application/javascript
+INFO  2020-08-07 13:58:04,102 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-08-07 13:58:04,103 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/block-ui/jquery.blockUI.js was not modified
+INFO  2020-08-07 13:58:04,103 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.1446ms 304 application/javascript
+INFO  2020-08-07 13:58:04,110 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:58:04,111 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js?v=KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms  
+INFO  2020-08-07 13:58:04,111 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:58:04,111 [34   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/sweetalert/sweetalert.min.js was not modified
+INFO  2020-08-07 13:58:04,111 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.7171ms 304 application/javascript
+INFO  2020-08-07 13:58:04,116 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:58:04,117 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:58:04,118 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:58:04,118 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:58:04,120 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:58:04,120 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.6804ms
+INFO  2020-08-07 13:58:04,120 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:58:04,121 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.4796ms 200 application/x-javascript
+INFO  2020-08-07 13:58:04,141 [15   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:58:04,142 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 23.3989ms
+INFO  2020-08-07 13:58:04,142 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:58:04,142 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.2638ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:58:04,204 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-07 13:58:04,209 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:58:04,209 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:58:04,210 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.8031ms 200 application/json
+INFO  2020-08-07 13:58:04,229 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=UrbTqbbvSgWBk8SvTBx58A  
+INFO  2020-08-07 13:58:04,232 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-07 13:58:04,236 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"UrbTqbbvSgWBk8SvTBx58A","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-08-07T13:58:04.2360683+08:00","Properties":{}}
+DEBUG 2020-08-07 13:58:04,236 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: UrbTqbbvSgWBk8SvTBx58A
+INFO  2020-08-07 13:58:04,929 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-08-07 13:58:04,936 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-07 13:58:04,936 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyABP.PhoneBook.Web.Controllers.HomeController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:58:04,937 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyABP.PhoneBook.Web.Controllers.HomeController (MyABP.PhoneBook.Web.Mvc).
+INFO  2020-08-07 13:58:04,945 [15   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-07 13:58:04,981 [15   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 35.5271ms.
+INFO  2020-08-07 13:58:04,981 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action MyABP.PhoneBook.Web.Controllers.HomeController.Index (MyABP.PhoneBook.Web.Mvc) in 43.9206ms
+INFO  2020-08-07 13:58:04,981 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyABP.PhoneBook.Web.Controllers.HomeController.Index (MyABP.PhoneBook.Web.Mvc)'
+INFO  2020-08-07 13:58:04,982 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.4122ms 200 text/html; charset=utf-8
+DEBUG 2020-08-07 13:58:04,988 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: UrbTqbbvSgWBk8SvTBx58A
+INFO  2020-08-07 13:58:04,988 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-07 13:58:04,989 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 760.059ms 101 
+INFO  2020-08-07 13:58:05,007 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637324054202219314  
+INFO  2020-08-07 13:58:05,007 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637324054202219314  
+INFO  2020-08-07 13:58:05,014 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:58:05,015 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:58:05,016 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-07 13:58:05,016 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-07 13:58:05,020 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-07 13:58:05,020 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 3.5653ms
+INFO  2020-08-07 13:58:05,020 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-07 13:58:05,021 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.2306ms 200 application/x-javascript
+INFO  2020-08-07 13:58:05,047 [15   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:58:05,047 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 31.8016ms
+INFO  2020-08-07 13:58:05,047 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-07 13:58:05,048 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.1775ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-07 13:58:05,109 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-07 13:58:05,117 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:58:05,118 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-07 13:58:05,118 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.4064ms 200 application/json
+INFO  2020-08-07 13:58:05,155 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=5zBclARAFM_rNWDEZEwFaw  
+INFO  2020-08-07 13:58:05,160 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-07 13:58:05,199 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"5zBclARAFM_rNWDEZEwFaw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-08-07T13:58:05.1990228+08:00","Properties":{}}
+DEBUG 2020-08-07 13:58:05,199 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 5zBclARAFM_rNWDEZEwFaw

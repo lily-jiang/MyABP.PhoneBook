@@ -1,4 +1,5 @@
-﻿using Abp.Domain.Entities.Auditing;
+﻿using Abp.Domain.Entities;
+using Abp.Domain.Entities.Auditing;
 using MyABP.PhoneBook.PhoneBooks.Persons;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Text;
 
 namespace MyABP.PhoneBook.PhoneBooks.PhoneNumbers
 {
-    public class PhoneNumber : IHasCreationTime
+    public class PhoneNumber :Entity<long>, IHasCreationTime
     {
         [Required]
         [Phone]
